@@ -1,0 +1,85 @@
+body {
+    background-color: #ddd;
+    font-family: Arial, sans-serif;
+}
+
+.table {
+    border-collapse: collapse;
+    margin: 40px auto;
+    width: 700px;
+    background: white;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.600);
+}
+
+.foto {
+    background: rgb(0, 153, 255);
+    border-bottom: 5px solid rgb(0, 153, 255);
+}
+
+.foto img {
+    border-radius: 90%;
+}
+
+.foto h1 {
+    margin: 1px;
+}
+
+.foto, .item {
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    transition: transform 0.5s;
+}
+
+.foto a {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+}
+
+.foto a:hover {
+    background-color:rgb(162, 179, 255);
+}
+
+.item {
+    cursor: pointer;
+}
+
+.item:hover {
+    background-color: #d8d8d8;
+}
+
+.item a {
+    text-decoration: none;
+    background-color: blue;
+    color: whitesmoke;
+    padding: 5px 10px;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+
+}
+
+.item a:hover {
+    background-color: rgb(162, 179, 255);
+}
+
+.item1 {
+    border-bottom: 5px solid salmon;
+}
+
+.item2 {
+    border-bottom: 5px solid green;
+}
+
+.item3 {
+    border-bottom: 5px solid orange;
+}
+
+.item4 {
+    border-bottom: 5px solid skyblue;
+}
+  
